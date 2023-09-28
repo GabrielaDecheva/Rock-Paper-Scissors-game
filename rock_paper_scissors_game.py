@@ -15,9 +15,9 @@ else:
 
 computer_random_number = random.randint(1, 3)
 computer_move = ''
-if computer_move == 1:
+if computer_random_number == 1:
     computer_move = rock
-elif computer_move == 2:
+elif computer_random_number == 2:
     computer_move = paper
 else:
     computer_move = scissors
@@ -46,9 +46,9 @@ while new_game == 'yes':
 
     computer_random_number = random.randint(1, 3)
     computer_move = ''
-    if computer_move == 1:
+    if computer_random_number == 1:
         computer_move = rock
-    elif computer_move == 2:
+    elif computer_random_number == 2:
         computer_move = paper
     else:
         computer_move = scissors
